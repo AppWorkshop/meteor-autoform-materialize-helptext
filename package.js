@@ -1,6 +1,6 @@
 Package.describe({
   name: 'appworkshop:autoform-materialize-helptext',
-  version: '1.1.0',
+  version: '1.1.1',
   // Brief, one-line summary of the package.
   summary: 'Adds help text to mozfet:autoform-materialize',
   // URL to the Git repository containing the source code for this package.
@@ -15,8 +15,8 @@ Package.onUse(function (api) {
   api.use('ecmascript');
   api.use([
     'templating',
-    'aldeed:autoform@6.2.0',
-    'mozfet:autoform-materialize@2.0.16',
+    'aldeed:autoform@6.3.0',
+    'mozfet:autoform-materialize@5.0.6',
     'aldeed:template-extension@4.0.0'
   ], ['client']);
   api.addFiles([
