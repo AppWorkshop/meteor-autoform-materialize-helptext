@@ -15,7 +15,7 @@ Package.onUse(function (api) {
   api.use('ecmascript');
   api.use([
     'templating',
-    'aldeed:autoform@5.0.0||6.0.0',
+    'aldeed:autoform@5.8.1||6.0.0||7.0.0',
     'mozfet:autoform-materialize@0.0.26||1.0.0||2.0.0||3.0.0||4.0.0||5.0.0',
     'aldeed:template-extension'
   ], ['client']);
