@@ -15,7 +15,7 @@ Package.onUse(function (api) {
   api.use('ecmascript');
   api.use([
     'templating@1.4.2',
-    'aldeed:template-extension@4.1.0'
+    'dm:template-extension@4.1.1'
   ], ['client']);
   api.use([
     'aldeed:autoform@5.8.1||6.0.0||7.0.0',
