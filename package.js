@@ -14,7 +14,7 @@ Package.onUse(function (api) {
   api.versionsFrom('2.12');
   api.use('ecmascript');
   api.use([
-    'templating',
+    'templating@1.4.1',
     'aldeed:autoform@5.8.1||6.0.0||7.0.0',
     'mozfet:autoform-materialize@0.0.26||1.0.0||2.0.0||3.0.0||4.0.0||5.0.0',
     'aldeed:template-extension'
