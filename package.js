@@ -1,6 +1,6 @@
 Package.describe({
   name: 'appworkshop:autoform-materialize-helptext',
-  version: '2.0.0',
+  version: '2.0.1',
   // Brief, one-line summary of the package.
   summary: 'Adds help text to mozfet:autoform-materialize',
   // URL to the Git repository containing the source code for this package.

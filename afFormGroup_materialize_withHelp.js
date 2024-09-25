@@ -1,9 +1,9 @@
-
+const AutoForm = Package['aldeed:autoform']?.AutoForm;
  
 Template.afFormGroup_materialize_withHelp.helpers({
   getHelp(fieldName) {
-    var schemaDef = AutoForm.getSchemaForField(fieldName);
-    if (schemaDef.autoform) {
+    var schemaDef = AutoForm?.getSchemaForField(fieldName);
+    if (schemaDef?.autoform) {
       return schemaDef.autoform.help;
     }
     return "";
