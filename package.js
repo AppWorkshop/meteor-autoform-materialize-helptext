@@ -14,9 +14,14 @@ Package.onUse(function (api) {
   api.versionsFrom('2.12');
   api.use('ecmascript');
   api.use([
-    'templating@=1.4.2',
+    'templating',
+    'aldeed:template-extension'
+  ], ['client']);
+  api.use([
     'aldeed:autoform@5.8.1||6.0.0||7.0.0',
     'mozfet:autoform-materialize@0.0.26||1.0.0||2.0.0||3.0.0||4.0.0||5.0.0',
+  ], ['client'], {weak: true}); // dependencies can't be resolved unless we use weak: true
+  api.use([
     'aldeed:template-extension'
   ], ['client']);
   api.addFiles([
