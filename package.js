@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.use('ecmascript');
+  api.use('ecmascript@0.16.10');
   api.use([
     'templating@1.4.2',
     'dm:template-extension@4.1.1'
